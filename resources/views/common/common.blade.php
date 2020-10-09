@@ -10,7 +10,7 @@
             <div class="navbar-translate">
                 <a class="navbar-brand" href="/" rel="tooltip" title="Coded by Creative Tim"
                    data-placement="bottom" target="_blank">
-                    Choice→選的相册
+                    glong的相册
                 </a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
                         aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +30,7 @@
                         </a>
                     </li>
                     <li class="dropdown nav-item">
-                        <a class="nav-link" href="http://linyiyuan.github.io" target="_blank" >
+                        <a class="nav-link" href="https://chaser-glong.github.io/" target="_blank" >
                             <font style="vertical-align: inherit;">
                                 <font style="vertical-align: inherit;">前往博客</font>
                             </font>
@@ -72,14 +72,14 @@
                 <nav class="footer-nav">
                     <ul>
                         <li>
-                            <a href="https://github.com/linyiyuan" target="_blank">
+                            <a href="https://github.com/chaser-glong" target="_blank">
                                 <font style="vertical-align: inherit;">
                                     <font style="vertical-align: inherit;">Github</font>
                                 </font>
                             </a>
                         </li>
                         <li>
-                            <a href="http://linyiyuan.github.io/" target="_blank">
+                            <a href="https://chaser-glong.github.io/" target="_blank">
                                 <font style="vertical-align: inherit;">
                                     <font style="vertical-align: inherit;">博客</font>
                                 </font>
@@ -108,7 +108,7 @@
                             <font style="vertical-align: inherit;">2019，用</font>
                         </font><i class="fa fa-heart heart"></i>
                         <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;"> Choice→選
+                            <font style="vertical-align: inherit;"> glong
                             </font>
                         </font>
                     </span>

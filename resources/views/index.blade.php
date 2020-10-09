@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('/assets/img//apple-icon.png') }}">
-    <link rel="icon" type="image/png" href="{{ asset('/assets/img/cosmosplanet.png') }}">
+    <link rel="icon" type="image/ico" href="{{ asset('/assets/img/cosmosplanet.ico') }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        Choice→選的相册
+        glong的相册
     </title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     字体和图标     -->
@@ -53,20 +53,20 @@
     </div>
 </nav>
 <!-- 导航栏结束 -->
-<div class="page-header section-dark" style="background-image: url('https://shmily-album.oss-cn-shenzhen.aliyuncs.com/system_image/2160x1920_DICE_08.jpg')">
+<div class="page-header section-dark" style="background-image: url('https://guoguo123.fun/images/backgroundImg.jpg')">
     <div class="filter"></div>
     <div class="content-center">
         <div class="container">
-            {{--<div class="title-brand">--}}
-                {{--<div class="fog-low">--}}
-                    {{--<img src="{{ asset('/assets/img/fog-low.png') }}" alt="">--}}
-                {{--</div>--}}
-                {{--<div class="fog-low right">--}}
-                    {{--<img src="{{ asset('/assets/img/fog-low.png') }}" alt="">--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            {{--<h2 class="presentation-subtitle text-center">假如人生是一场游戏</h2>--}}
-            {{--<h2 class="presentation-subtitle text-center">你会选择什么样的角色呢</h2>--}}
+            <div class="title-brand">
+                <div class="fog-low">
+                    <img src="{{ asset('/assets/img/fog-low.png') }}" alt="">
+                </div>
+                <div class="fog-low right">
+                    <img src="{{ asset('/assets/img/fog-low.png') }}" alt="">
+                </div>
+            </div>
+            <h2 class="presentation-subtitle text-center">假如人生是一场游戏</h2>
+            <h2 class="presentation-subtitle text-center">你会选择什么样的角色呢</h2>
         </div>
     </div>
     <div class="moving-clouds" style="background-image: url('{{ asset('/assets/img/clouds.png') }}'); "></div>

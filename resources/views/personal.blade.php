@@ -3,12 +3,12 @@
 @section('content')
     <div class="container pt-5">
         <div class="title">
-            <blockquote class="blockquote text-right">
-                <p class="mb-0">20岁的年龄多会一门技能，三十岁就会少跪地求人一次</p>
-                <footer class="blockquote-footer">《林氏语录》
-                    <cite title="Source Title">Choice→選</cite>
-                </footer>
-            </blockquote>
+            {{--<blockquote class="blockquote text-right">--}}
+                {{--<p class="mb-0">20岁的年龄多会一门技能，三十岁就会少跪地求人一次</p>--}}
+                {{--<footer class="blockquote-footer">《林氏语录》--}}
+                    {{--<cite title="Source Title">Choice→選</cite>--}}
+                {{--</footer>--}}
+            {{--</blockquote>--}}
         </div>
     </div>
     <div class="container">
@@ -25,7 +25,7 @@
                     <div class="card-body">
                         <h4 class="card-title">
                             <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">Choice→選</font>
+                                <font style="vertical-align: inherit;">glong</font>
                             </font>
                         </h4>
                         <h6 class="card-category">
@@ -42,10 +42,10 @@
                         </p>
                     </div>
                     <div class="card-footer text-center">
-                        <a href="javascript:void(0);" class="btn btn-just-icon btn-outline-info" data-html="true" data-toggle="tooltip" data-placement="top" title="<span class='h6 text-info'>QQ:375133100</span>" data-clipboard-action="copy" data-clipboard-text="375133100" id="copy_qq">
+                        <a href="javascript:void(0);" class="btn btn-just-icon btn-outline-info" data-html="true" data-toggle="tooltip" data-placement="top" title="<span class='h6 text-info'>QQ:1334058932</span>" data-clipboard-action="copy" data-clipboard-text="375133100" id="copy_qq">
                             <i class="fa fa-qq" aria-hidden="true"></i>
                         </a>
-                        <a href="#paper-kit" class="btn btn-just-icon btn-outline-success" data-html="true" data-toggle="tooltip" data-placement="top" title="<span class='h6 text-success'>微信:13211035441</span>" data-clipboard-action="copy" data-clipboard-text="13211035441" id="copy_wx">
+                        <a href="#paper-kit" class="btn btn-just-icon btn-outline-success" data-html="true" data-toggle="tooltip" data-placement="top" title="<span class='h6 text-success'>微信:15703276938</span>" data-clipboard-action="copy" data-clipboard-text="13211035441" id="copy_wx">
                             <i class="fa fa-wechat" aria-hidden="true" data-clipboard-action="copy" data-clipboard-target="#copy_wx"></i>
                         </a>
                     </div>
@@ -93,26 +93,26 @@
                         </div>
                         <h3 style="margin-bottom: 10px">关于我</h3>
                         <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">PHP狂热爱好者</font></p>
-                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">开源爱好者，喜欢逛开源社区，阅读源代码</font><br></p>
-                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">擅于利用 Google SegmentFault Stack Overflow 解决各类问题</font><br></p>
-                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">拥有代码洁癖，喜欢条理性，逻辑性的代码, 合理的注释合理的TODO</font><br></p>
-                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">不折不扣的极客精神, 进新技术永远保持着好奇心</font><br></p>
-                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">极快的学习能力以及适应能力，能够短时间熟悉新事物</font><br></p>
+                        {{--<p style="margin-bottom: 15px"><font style="vertical-align: inherit;">开源爱好者，喜欢逛开源社区，阅读源代码</font><br></p>--}}
+                        {{--<p style="margin-bottom: 15px"><font style="vertical-align: inherit;">擅于利用 Google SegmentFault Stack Overflow 解决各类问题</font><br></p>--}}
+                        {{--<p style="margin-bottom: 15px"><font style="vertical-align: inherit;">拥有代码洁癖，喜欢条理性，逻辑性的代码, 合理的注释合理的TODO</font><br></p>--}}
+                        {{--<p style="margin-bottom: 15px"><font style="vertical-align: inherit;">不折不扣的极客精神, 进新技术永远保持着好奇心</font><br></p>--}}
+                        {{--<p style="margin-bottom: 15px"><font style="vertical-align: inherit;">极快的学习能力以及适应能力，能够短时间熟悉新事物</font><br></p>--}}
 
                         <div></div>
                         <h3 style="margin-bottom: 10px">联系方式</h3>
-                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">微信：13211035441</font></p>
-                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">Q Q：375133100</font><br></p>
-                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">网易邮箱: linyiyuann@163.com</font><br></p>
-                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">谷歌邮箱: linyiyuan@gmail.com</font><br></p>
-                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">GitHub: <a href="https://github.com/linyiyuan" target="_blank">https://github.com/linyiyuan</a></font><br></p>
-                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">博客: <a href="https://linyiyuan.github.io/" target="_blank">https://linyiyuan.github.io/</a></font><br></p>
-                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">笔记: <a href="http://gitbook.linyiyuan.top/" target="_blank">http://gitbook.linyiyuan.top/</a></font><br></p>
-                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">简历: <a href="http://resume.linyiyuan.top/" target="_blank">http://resume.linyiyuan.top/</a></font><br></p>
-                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">简历PDF: <a href="http://images.linyiyuan.top/PHP开发工程师-林益远.pdf/" target="_blank">http://images.linyiyuan.top/PHP开发工程师-林益远.pdf/</a></font><br></p>
-                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">掘金: <a href="https://juejin.im/user/5c749f1951882561dd7b7e83" target="_blank">https://juejin.im/user/5c749f1951882561dd7b7e83</a></font><br></p>
-                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">知乎: <a href="https://www.zhihu.com/people/lin-yi-yuan-35-45/activities" target="_blank">https://www.zhihu.com/people/lin-yi-yuan-35-45/activities</a></font><br></p>
-                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">微博: <a href="https://weibo.com/3118916401/profile?rightmod=1&wvr=6&mod=personinfo" target="_blank">https://weibo.com/3118916401/profile?rightmod=1&wvr=6&mod=personinfo</a></font><br></p>
+                        {{--<p style="margin-bottom: 15px"><font style="vertical-align: inherit;">微信：13211035441</font></p>--}}
+                        {{--<p style="margin-bottom: 15px"><font style="vertical-align: inherit;">Q Q：375133100</font><br></p>--}}
+                        <p style="margin-bottom: 15px"><font style="vertical-align: inherit;">网易邮箱: 15703276938@163.com</font><br></p>
+                        {{--<p style="margin-bottom: 15px"><font style="vertical-align: inherit;">谷歌邮箱: linyiyuan@gmail.com</font><br></p>--}}
+                        {{--<p style="margin-bottom: 15px"><font style="vertical-align: inherit;">GitHub: <a href="https://github.com/linyiyuan" target="_blank">https://github.com/linyiyuan</a></font><br></p>--}}
+                        {{--<p style="margin-bottom: 15px"><font style="vertical-align: inherit;">博客: <a href="https://linyiyuan.github.io/" target="_blank">https://linyiyuan.github.io/</a></font><br></p>--}}
+                        {{--<p style="margin-bottom: 15px"><font style="vertical-align: inherit;">笔记: <a href="http://gitbook.linyiyuan.top/" target="_blank">http://gitbook.linyiyuan.top/</a></font><br></p>--}}
+                        {{--<p style="margin-bottom: 15px"><font style="vertical-align: inherit;">简历: <a href="http://resume.linyiyuan.top/" target="_blank">http://resume.linyiyuan.top/</a></font><br></p>--}}
+                        {{--<p style="margin-bottom: 15px"><font style="vertical-align: inherit;">简历PDF: <a href="http://images.linyiyuan.top/PHP开发工程师-林益远.pdf/" target="_blank">http://images.linyiyuan.top/PHP开发工程师-林益远.pdf/</a></font><br></p>--}}
+                        {{--<p style="margin-bottom: 15px"><font style="vertical-align: inherit;">掘金: <a href="https://juejin.im/user/5c749f1951882561dd7b7e83" target="_blank">https://juejin.im/user/5c749f1951882561dd7b7e83</a></font><br></p>--}}
+                        {{--<p style="margin-bottom: 15px"><font style="vertical-align: inherit;">知乎: <a href="https://www.zhihu.com/people/lin-yi-yuan-35-45/activities" target="_blank">https://www.zhihu.com/people/lin-yi-yuan-35-45/activities</a></font><br></p>--}}
+                        {{--<p style="margin-bottom: 15px"><font style="vertical-align: inherit;">微博: <a href="https://weibo.com/3118916401/profile?rightmod=1&wvr=6&mod=personinfo" target="_blank">https://weibo.com/3118916401/profile?rightmod=1&wvr=6&mod=personinfo</a></font><br></p>--}}
                     </div>
 
                     {{--<div class="tab-pane" id="profile" role="tabpanel">--}}
