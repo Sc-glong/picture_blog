@@ -53,7 +53,7 @@
     </div>
 </nav>
 <!-- 导航栏结束 -->
-<div class="page-header section-dark" style="background-image: url('https://guoguo123.fun/images/backgroundImg.jpg')">
+<div class="page-header section-dark" style="background-image: url('https://images-glong.oss-cn-beijing.aliyuncs.com/backgroundImg.jpg')">
     <div class="filter"></div>
     <div class="content-center">
         <div class="container">
