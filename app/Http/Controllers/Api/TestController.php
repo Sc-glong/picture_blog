@@ -2,10 +2,13 @@
 
 namespace App\Http\Controllers\Api;
 
+use App\Http\Requests\UsersRequest;
 use App\Models\Users;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Redis;
+use Illuminate\Support\Str;
 use JWTAuth;
 use JWTFactory;
 use Spatie\Permission\Models\Permission;
@@ -19,5 +22,41 @@ class TestController extends CommonController
 
         dd($payTypeConf);
 
+    }
+
+    public function testDot()
+    {
+        $arr = [
+            1 => "837483",
+            "name" => [
+                'first_name' => [
+                    1 => 4,
+                    9 => 8
+                ],
+                'last_name' => "guolong"
+            ],
+            4 => 238498
+        ];
+//        dump(Arr::collapse($arr));
+//
+//        dump(Arr::dot($arr));
+
+        Arr::forget($arr,['last_name',9]);
+        dump($arr);
+
+        dump(Str::camel("last_name"));
+    }
+
+    /**
+     * test constom the class of request
+     *
+     * @param UsersRequest $request
+     * @return mixed
+     */
+    public function testRequest(UsersRequest $request)
+    {
+        $userId = $request->uid;
+
+        return $userId;
     }
 }

@@ -23,6 +23,8 @@ Route::group(['namespace' => 'Api'],function(){
         Route::group(['prefix' => 'common', 'namespace' => 'Common'], function() {
             Route::get('send_phone_code', 'SmsController@sendPhoneCode');         //发送短信验证码接口
         });
+        Route::get('/glong','TestController@testDot');
+        Route::get('/request','TestController@testRequest');
 
 // ================== 需要Token认证的接口路由 ==================
         Route::middleware(['refresh.token'])->group(function(){
@@ -38,7 +40,7 @@ Route::group(['namespace' => 'Api'],function(){
 
             // ================== 需要权限认证的接口路由 ==================
             Route::middleware(['check.permission','record.operate'])->group(function(){
-             
+
 
                 //后台登录相关接口
                 Route::group(['prefix' => 'auth', 'namespace' => 'Auth'] ,function(){
@@ -56,7 +58,7 @@ Route::group(['namespace' => 'Api'],function(){
                     Route::get('get_home_data', 'HomePageController@showData');             //获取首页展示数据
                 });
 
-            
+
                 Route::get('test', 'TestController@test'); //测试接口
 
             });

@@ -17,6 +17,7 @@
         "predis/predis": "^1.1",
         "spatie/laravel-permission": "~2.7",
         "tymon/jwt-auth": "1.*@rc",
+        "weiwenhao/tree-ql": "^0.6.3@alpha",
         "zgldh/qiniu-laravel-storage": "^0.10.0"
     },
     "require-dev": {
