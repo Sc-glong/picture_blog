@@ -2,6 +2,7 @@
 
 namespace App\Models\User;
 
+use App\Models\Dao;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 
@@ -14,6 +15,7 @@ use Illuminate\Support\Facades\DB;
  */
 class Users extends Model
 {
+    use Dao;
     /**
      * 数据库连接
      * @var

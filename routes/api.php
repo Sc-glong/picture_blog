@@ -25,6 +25,7 @@ Route::group(['namespace' => 'Api'],function(){
         });
         Route::get('/glong','TestController@testDot');
         Route::get('/request','TestController@testRequest');
+        Route::get('/dao','TestController@testDao');
 
 // ================== 需要Token认证的接口路由 ==================
         Route::middleware(['refresh.token'])->group(function(){

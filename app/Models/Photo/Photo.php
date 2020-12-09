@@ -2,10 +2,12 @@
 
 namespace App\Models\Photo;
 
+use App\Models\Dao;
 use Illuminate\Database\Eloquent\Model;
 
 class Photo extends Model
 {
+    use Dao;
     /**
      * 数据库表
      * @var

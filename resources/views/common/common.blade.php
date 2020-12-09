@@ -30,7 +30,7 @@
                         </a>
                     </li>
                     <li class="dropdown nav-item">
-                        <a class="nav-link" href="https://chaser-glong.github.io/" target="_blank" >
+                        <a class="nav-link" href="https://sc-glong.github.io/" target="_blank" >
                             <font style="vertical-align: inherit;">
                                 <font style="vertical-align: inherit;">前往博客</font>
                             </font>

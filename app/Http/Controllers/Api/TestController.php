@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Requests\UsersRequest;
-use App\Models\Users;
+use App\Models\Photo\Photo;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Arr;
@@ -58,5 +58,18 @@ class TestController extends CommonController
         $userId = $request->uid;
 
         return $userId;
+    }
+
+    /**
+     * test dao
+     *
+     * @param Photo $photo
+     * @return mixed
+     *
+     * @throws \Exception
+     */
+    public function testDao(Photo $photo)
+    {
+         return $photo->getDataByWhereForSelect(['id'=>1],false);
     }
 }
